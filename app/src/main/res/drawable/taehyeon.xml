@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/taehyeon1" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon2" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon3" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon4" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon5" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon6" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon7" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon8" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon9" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon10" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon11" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon12" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon13" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon14" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon15" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon16" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon17" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon18" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon19" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon20" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon21" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon22" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon23" android:duration="100"/>
+    <item android:drawable="@drawable/taehyeon24" android:duration="100"/>
+
+</animation-list>
