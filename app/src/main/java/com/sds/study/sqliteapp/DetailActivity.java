@@ -85,8 +85,6 @@ public class DetailActivity extends AppCompatActivity {
 
         db.execSQL(sql, new String[]{detailMember_id.getText().toString()});
 
-        /*intent.putExtra("delete", detailMember_id.getText());*/
-
         setResult(RESULT_OK,intent);
         finish();
 

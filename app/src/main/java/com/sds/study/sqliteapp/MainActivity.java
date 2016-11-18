@@ -98,16 +98,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         Member member = item.getMember();
 
-        /*int member_id = member.getMember_id();
-        String id = member.getId();
-        String password = member.getPassword();*/
-
         Toast.makeText(this, i+"번째 "+member.getMember_id()+"이다", Toast.LENGTH_SHORT).show();
 
-        //member.setMember_id();
         intent.putExtra("member", member);
-
-        //startActivity(intent);
 
         startActivityForResult(intent, CALL_DETAIL_RESULTCODE);
 
@@ -121,29 +114,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         if( requestCode==CALL_DETAIL_RESULTCODE ){
 
             if( resultCode==RESULT_OK ){
-
-                /*if( data.hasExtra("update") ){
-
-                    Member updatedMember = data.getParcelableExtra("member");
-
-                    String updatedMember_id = Integer.toString(updatedMember.getMember_id());
-
-                    String sql;
-                    sql = "delete from member where member_id=?";
-
-                    db.execSQL(sql, new String[]{updatedMember.getId(),updatedMember.getPassword(), updatedMember_id});
-
-
-                }else if( data.hasExtra("delete") ){
-
-                    String sql;
-                    sql = "delete from member where member_id=?";
-
-                    String deletedMember_id = data.getStringExtra("delete");
-
-                    db.execSQL(sql, new String[]{deletedMember_id});
-
-                }*/
 
                 myListAdapter.getList();
                 myListAdapter.notifyDataSetChanged();
